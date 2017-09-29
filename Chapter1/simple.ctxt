@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=simple
+comment0.text=\ 1.\ simple\ -\ works.\ Even\ though\ capitalization\ matters.\ weird\r\n\ 2.\ SimpleProgram\ -\ Works\r\n\ 3.\ 1Simple\ -\ Syntax\ Error,\ cannot\ start\ identifier\ w/\ number\r\n\ 4.\ _Simple_\ -\ Works\r\n\ 5.\ *Simple*\ -\ Doesn't\ work.\ NEeds\ to\ begin\ w/\ letter.\r\n\ 6.\ $123_45\ -\ Works,\ surprisingly\r\n\ 7.\ Simple\!\ -\ Doesn't\ work.\ \!\ kills\ it\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
