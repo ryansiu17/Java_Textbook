@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Stars
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=length
+comment2.target=void\ buildShapeA(int)
+comment3.params=length
+comment3.target=void\ buildShapeB(int)
+comment4.params=length
+comment4.target=void\ buildShapeC(int)
+comment5.params=length
+comment5.target=void\ buildShapeD(int)
+numComments=6
