@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Author
+comment1.params=
+comment1.target=Author()
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=
+comment4.target=void\ setBooksPublished()
+comment5.params=
+comment5.target=int\ getBooksPublished()
+numComments=6
