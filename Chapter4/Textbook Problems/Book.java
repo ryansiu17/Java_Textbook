@@ -24,6 +24,6 @@ public class Book{
         title = scan.next();        
     }
     public String toString(){
-        return title + ", written by " + author; 
+        return this.title + ", a " + this.genre + " book, written by " + this.author; 
     }
 }
