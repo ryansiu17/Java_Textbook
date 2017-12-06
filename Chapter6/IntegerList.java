@@ -51,17 +51,18 @@ public class IntegerList{
     //-------------------------------------------------------
     public void selectionSort()
     {
-        int minIndex = 0;
-        int minValue = list[0];
         int j = 0;
+        int minIndex = 0;
+        int minValue = list[j];
         for (int k = 0; k < list.length; k++){
+            minValue = list[j];      
+            minIndex = j;
             for (int i=j; i < list.length; i++){
                 if(list[i] < minValue){
                     minValue = list[i];
                     minIndex = i;
                 }
             }
-            
             list[minIndex] = list[j];
             list[j] = minValue;
             j++;
