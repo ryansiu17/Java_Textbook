@@ -73,4 +73,8 @@ public class IntegerListTest{
         System.out.println("4: Print the list");
         System.out.print("\nEnter your choice: ");
     }
+    
+    public static void printFun(){
+        System.out.print("Fun");
+    }
 }
