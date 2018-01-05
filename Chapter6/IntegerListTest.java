@@ -55,6 +55,19 @@ public class IntegerListTest{
             case 4:
                 list.print();
                 break;
+            case 5:
+                list.increaseSize();
+                break;
+            case 6:
+                list.checkSize();
+                System.out.println("What value is to be added?");
+                int next = scan.nextInt();
+                list.addElement(next);
+                break;
+            case 7:
+                System.out.println("What value is to be removed?");
+                list.removeValue(scan.nextInt());
+                break;
             default:
                 System.out.println("Sorry, invalid choice");
             }
@@ -71,6 +84,9 @@ public class IntegerListTest{
         System.out.println("2: Sort the list using selection sort");
         System.out.println("3: Find an element in the list using sequential search");
         System.out.println("4: Print the list");
+        System.out.println("5: Increase the list size");
+        System.out.println("6: Add a new value");
+        System.out.println("7: Remove a value");
         System.out.print("\nEnter your choice: ");
     }
     

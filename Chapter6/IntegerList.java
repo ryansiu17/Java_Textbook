@@ -80,4 +80,40 @@ public class IntegerList{
             list[search(oldVal)] = newVal;
         }
     }
+    
+    public void increaseSize(){
+        int[] newList = new int[list.length*2];
+        for(int i = 0; i < list.length; i++){
+            newList[i] = list[i];
+        }
+        list = newList;
+    }
+    
+    public void checkSize(){
+        int check = this.search(0);
+        if(check == -1){
+            this.increaseSize();
+            System.out.println("List full. Increasing size");
+        }
+    }
+    
+    public void addElement(int val){
+        int loc = this.search(0);
+        list[loc] = val;
+    }
+    
+    public void removeValue(int val){
+        int loc = this.search(val);
+        if(loc != -1){
+                    int[] newList = new int[list.length];
+                    for(int i = 0; i < loc; i++){
+                        newList[i] = list[i];
+                    }
+                    for(int k = loc; k < list.length - 1; k++){
+                        newList[k] = list[k+1];
+                    }
+                    list = newList;
+        }
+    }
+    
 }
